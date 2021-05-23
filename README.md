@@ -7,13 +7,13 @@ Password-Validation-BeeWare\loginsystem\src\loginsystem\app.py
 # A closer look on the code
 ---
 ```
-"""
-A basic login screen and validation
-"""
-import toga
-from toga.style import Pack
-from toga.style.pack import COLUMN, ROW
-
+    """
+    A basic login screen and validation
+    """
+    import toga
+    from toga.style import Pack
+    from toga.style.pack import COLUMN, ROW
+```
 So, in this we are importing our GUI-toolkit toga and its components
 
 ```
