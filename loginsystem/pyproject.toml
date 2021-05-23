@@ -1,0 +1,49 @@
+[tool.briefcase]
+project_name = "Login Screen"
+bundle = "com.abirshandilya.loginsystem"
+version = "0.0.1"
+url = "https://abirshandilya.com/loginsystem"
+license = "BSD license"
+author = 'Abir Shandilya'
+author_email = "abirshandilya@gmail.com"
+
+[tool.briefcase.app.loginsystem]
+formal_name = "Login System"
+description = "A basic login screen and validation"
+icon = "src/loginsystem/resources/loginsystem"
+sources = ['src/loginsystem']
+requires = []
+
+
+[tool.briefcase.app.loginsystem.macOS]
+requires = [
+    'toga-cocoa>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.loginsystem.linux]
+requires = [
+    'toga-gtk>=0.3.0.dev20',
+]
+system_requires = [
+    'libgirepository1.0-dev',
+    'libcairo2-dev',
+    'libpango1.0-dev',
+    'libwebkitgtk-3.0-0',
+    'gir1.2-webkit-3.0',
+]
+
+[tool.briefcase.app.loginsystem.windows]
+requires = [
+    'toga-winforms>=0.3.0.dev20',
+]
+
+# Mobile deployments
+[tool.briefcase.app.loginsystem.iOS]
+requires = [
+    'toga-iOS>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.loginsystem.android]
+requires = [
+    'toga-android>=0.3.0.dev20',
+]

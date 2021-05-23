@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.5
+Name: loginsystem
+Formal-Name: Login System
+App-ID: com.abirshandilya.loginsystem.loginsystem
+Version: 0.0.1
+Home-page: https://abirshandilya.com/loginsystem
+Author: Abir Shandilya
+Author-email: abirshandilya@gmail.com
+Summary: A basic login screen and validation
